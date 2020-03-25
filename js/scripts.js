@@ -5,6 +5,10 @@ $(document).ready(function(){
     var sandwich = $("#sandwichInput").val();
     console.log(sandwich);
     
-    $("#output").text(result);
+
+    $(".sandwichOutput").append(sandwich);
+    $("#output").show();
   })
 })
+
+var flavor = $("input:radio[name=flavor]:checked").val();
