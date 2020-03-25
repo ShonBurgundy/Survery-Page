@@ -1,0 +1,18 @@
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+#output {
+  display:none;
+}
+
+
+body {
+  height: 100px;
+  border-top: thin solid black;
+  border-bottom: thin solid black;
+  border-right: thin solid black;
+  border-left: thin solid black;
+  background-color: lightgray;
+}
